@@ -1,0 +1,13 @@
+[project]
+name = "flaskr"
+version = "0.1.0"
+description = "The basic blog app built in the Flask tutorial."
+dependencies = [
+    "flask",
+]
+
+[buid-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
+
+#Nothing changes from how you’ve been running your project so far. --app is still set to flaskr and flask run still runs the application, but you can call it from anywhere, not just the flask-tutorial directory.
